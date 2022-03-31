@@ -1,10 +1,13 @@
 body{
+
+    padding: 10px;
+    /* margin: 10px; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
 width: 1400px;
-height:65px;
+height:75px;
 color: white;
 background-color: black
 }
@@ -17,7 +20,7 @@ background-color: black
 padding-left: 10px;
 border: 1px solid blue;
 width: 900px;
-height:600px;
+height:550px;
 display: inline-block;
 
 }
@@ -25,13 +28,23 @@ display: inline-block;
 .markets{
 border: 1px solid green;
 width: 450px;
-height:600px;
+height:560px;
 display: inline-block;
 }
 
 img{
+    /* padding: 0px;
+    margin: 0px; */
     width: 310px;
-    height: 65px;
+    height: inherit;
+}
+
+td#one{
+    width: 310px;
+    /* margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 0px; */
+    border-right: 1px solid lightgray;
 }
 
 td#two{
@@ -171,30 +184,30 @@ tr#com2{
 }
 
 td#com21{
-    width: 120px;
+    width: 130px;
  }
 
  td#com22{
-    width: 90px;
+    width: 100px;
  }
 
 td#com23{
-    width: 100px;
+    width: 110px;
 }
 
 td#com24{
-    width: 100px;
+    width: 110px;
 }
 
 td#com25{
-    width: 160px;
+    width: 170px;
 }
 
 td#com26{
     width: 150px;
 }
 
-caption.cap{
+.cap{
     height: 20px;
     text-align: left;
     text-transform: uppercase;
@@ -202,8 +215,19 @@ caption.cap{
     font-weight: bold;
 }
 
+.cap1{
+    height: 30px;
+    background-color:cornflowerblue;
+    padding-top: 15px;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
 tr.er{
-    height: 10px;
+    height: 7px;
 }
 
 td.comfut11{
@@ -250,4 +274,49 @@ td.crbind15{
 td.crbind16{
     text-align: center;
     width:200px;
+}
+
+td.mar11{
+    height: 30px;
+    padding-left: 10px;
+    color: cornflowerblue;
+    font-weight: bold;
+    background-color: lightcyan;
+    border: 1px solid red; 
+    width: 190px;
+}
+
+td.mar12{
+    border: 1px solid red; 
+    width: 1000px;
+}
+
+td.mar13{
+    border: 1px solid red; 
+    width: 1000px;
+}
+
+td.mar14{
+    border: 1px solid red; 
+    width: 1000px;
+}
+
+.btntrf{
+    width:220px;
+    font-size: larger;
+}
+
+.btnsrch{
+    width:100px;
+    font-size: larger;
+}
+
+input{
+    width:70%;
+    border: none;
+}
+
+.srch{
+    height: 50px;
+    border: 1px solid black;
 }
